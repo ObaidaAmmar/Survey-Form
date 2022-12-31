@@ -1,0 +1,108 @@
+body{
+    background-image: linear-gradient(
+  115deg,
+  rgba(60, 60, 160, 0.7),
+  rgba(140, 140, 210, 0.5)),url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  padding: 2em 0;
+  height: 100vh;
+  }
+  
+  h1{
+    text-align: center;
+    margin-bottom: -10px
+  }
+  
+  #description{
+    text-align: center;
+    font-weight: 200;
+  }
+  
+  form{
+    width: 40%;
+    min-width: 500px;
+    margin: auto auto;
+    padding: 1em;
+    background-color: rgba(27, 27, 50, 0.8);
+    font-size: 18px;
+  }
+  
+  fieldset{
+    border: none;
+  }
+  
+  fieldset:nth-child(1) input{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    width: 100%;
+    height: 2.5em;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  fieldset:nth-child(2) label{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  fieldset:nth-child(2){
+    margin-top: -30px;
+  }
+  
+  select{
+    display: block;
+    width: 100%;
+    font-size: 1.1rem;
+    font-family: 'Poppins';
+    color: rgba(0,0,0,0.5);
+    font-weight: 300;
+    background-color: white;
+    margin-top: -5px;
+    margin-bottom: 35px;
+  }
+  
+  input[type="radio"]{
+    margin-bottom: 2px;
+    margin-right: 10px;
+  }
+  
+  input[type="checkbox"]{
+    margin-bottom: 2px;
+    margin-right: 10px;
+  }
+  
+  fieldset:nth-child(2) p:nth-child(9){
+      margin-top: 50px;
+  }
+  
+  fieldset:nth-child(2) label:nth-child(n+4):nth-child(-n+8){
+  
+    margin-bottom: -20px;
+  }
+  
+  fieldset:nth-child(3) p{
+    margin-top: 0px;
+  }
+  
+  textarea{
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5em;
+    margin-top: -10px;
+  }
+  
+  input[type="submit"]{
+    margin-top: 20px;
+    width: 100%;
+    font-size: 18px;
+    padding: 0.7em 0;
+    color: white;
+    background-color: rgba(0, 204, 43, 0.71);
+    border: none;
+    border-radius: 5px;
+  }
